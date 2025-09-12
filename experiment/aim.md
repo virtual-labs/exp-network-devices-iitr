@@ -1,1 +1,0 @@
-####  The aim of this experiment is to study and demonstrate the working, features, and role of different network devices in establishing communication between computers and networks.
