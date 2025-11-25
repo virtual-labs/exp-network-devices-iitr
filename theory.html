@@ -1,0 +1,764 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITR',
+        'phase': 'Testing',
+        'expName': 'DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES',
+        'expShortName': 'network-devices'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="network-devices">
+    	<meta name="developer-institute" content="IITR">
+    	<meta name="learning-unit" content="DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/css/toast.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"></head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <div class="svc-rating-display">
+                <rating-display spreadsheetid="1x12nhpp0QvnsA6x-O1sV4IA9SAbfVsq_wiexWkutOmU" sheetname="Experiment-Database" columnname="Experiment Short Name" columnvalue="network-devices" imagesdirectory="/plugins/svc-rating/images/">
+                </rating-display>
+            </div>      <div class="svc-rating-submit">
+                <rating-submit title="Rate" this="" experiment="">
+                </rating-submit>
+            </div>      <bug-report id="bug-report" title="[BUG REPORT] DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITR&quot;,&quot;expname&quot;:&quot;DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="demonstration-of-the-functioning-of-network-devices">Demonstration of the functioning of Network Devices</h2>
+          
+            </div>
+              <h3 id="introduction">Introduction</h3>
+          <p>Networking Devices-Hardware devices that are used to connect computers, printers, fax machines and other electronic devices to a network are called network devices. These devices transfer data in a fast, secure and correct way over same or different networks. Network devices may be inter-network or intra-network. Some devices are installed on the device, like NIC card or RJ45 connector, whereas some are part of the network, like router, switch, etc.</p>
+          <p>Before moving on to network devices, let's understand two terms:</p>
+          <p><strong>1. Collision domain</strong></p>
+          <p>   A collision domain is, as the name implies, the part of a network where packet collisions can occur. A collision occurs when two devices send a packet at the same time on the shared network segment. The packets collide and both devices must send the packets again, which reduces network efficiency.</p>
+          <center>               
+           <img style="mix-blend-mode: darken;" src="images/collision_domains.jpg" alt="Hubs"><br>     
+             <figcaption><strong>Fig. 1 Illustration of collision domain</strong></figcaption>
+          </center>
+          
+          <p><strong>2. Broadcast domain</strong></p>
+          <p>   A broadcast domain is the domain in which a broadcast is forwarded. A broadcast domain contains all devices that can reach each other at the data link layer (OSI layer 2) by using broadcast. All ports on a hub or a switch are by default in the same broadcast domain. All ports on a router are in the different broadcast domains and routers don’t forward broadcasts from one broadcast domain to another.</p>
+          <center>
+             <img style="mix-blend-mode: darken;" src="images/broadcast_domains.jpg" alt="Hubs">
+               <figcaption><strong>Fig. 2 Illustration of broadcast domain</strong></figcaption>  
+          </center>
+          
+          <h3 id="network-devices">Network devices</h3>
+          <p><strong>1. Hubs</strong></p>
+          <p>   Hubs connect multiple computer networking devices together. A hub also acts as a repeater in that it amplifies signals that deteriorate after traveling long distances over connecting cables. A hub is the simplest in the family of network connecting devices because it connects LAN components with identical protocols. A hub can be used with both digital and analog data, provided its settings have been configured to prepare for the formatting of the incoming data. Hubs operate at the Physical layer of the Open Systems Interconnection (OSI) model.</p>
+           <center>
+                             
+             <img style="mix-blend-mode: darken;" src="images/Hubs.png" alt="Hubs">
+                <figcaption><strong>Fig. 3 Hub</strong></figcaption>       
+               </center>
+          
+          <h4 id="how-does-a-hub-work">How Does a Hub Work?</h4>
+          <p>   Hubs do not perform packet filtering or addressing functions; they just send data packets to all connected devices. Hub consists of multiple ports. Each port can connect one device. A connected device, say 1, sends the frame (sender). This frame will be delivered to all the connected devices (receivers), say 2,3, and 4 in this case. Although the frame is sent to all ports, a connected device only accepts those frames whose MAC matches the destination MAC address field. The rest of the frames are discarded by that device.</p>
+          <center>
+                <img style="mix-blend-mode: darken;" src="images/hub_working.jpg" alt="Hubs">
+              <figcaption><strong>Fig. 4 Multiple devices connected to hub</strong></figcaption>     
+          </center>
+                              
+          
+          <p>   Suppose devices 1 and 2 simultaneously send frames/frames to the hub. Due to this, frames often crash. N number of collision domains are possible in the hub, where N refers to the number of devices connected to the hub. Whenever this collision occurs, the host that has sent the frame will detect it. The sent frames are destroyed, and the host sends a jam signal for other hosts to wait. The waiting period is different for each host to avoid any further collision.</p>
+          <h4 id="hub-falls-in-three-categories">Hub falls in three categories:</h4>
+          <p>   Initially, hubs were passive devices. However, with development of advanced technology, active hubs and intelligent hubs came into use.</p>
+             <center>
+              <img style="mix-blend-mode: darken;" src="images/hubs.jpg" alt="Hubs">
+                   <figcaption><strong>Fig. 5 Types of hub</strong></figcaption> 
+                </center>
+          
+          <ul>
+          <li><strong>Passive Hub:</strong> They are more like point contact for the wires to build in the physical network. They have nothing to do with modifying the signals.</li>
+          <li><strong>Active Hub:</strong> They are smarter than the passive hubs. They not only provide the path for the data signals in fact they regenerate, concentrate and strengthen the signals before sending them to their destinations. Active hubs are also termed as ‘repeaters’. The limitation of active hubs is that they magnify noise along with the signals.</li>
+          <li><strong>Intelligent Hub:</strong> They have a special kind of software in them to perform management functions in the network. The software offers them the capability to find and separate network issues. Thus they have both monitoring and management capabilities.</li>
+          </ul>
+          <h4 id="advantages-of-hub">Advantages of Hub</h4>
+          <ul>
+          <li><strong>Message broadcast:</strong> A host in a hub sends messages to every other device in the connecting network.</li>
+          <li><strong>Cheaper devices:</strong> Among routers, hubs and switches; hubs are the least expensive since they are purely hardware.</li>
+          <li><strong>Easy installation:</strong> It can be easily installed thus it automatically creates a local area network (LAN).</li>
+          <li><strong>Easy removal of damaged device:</strong> Due to the different connecting wires, the hub remains perfectly functional even if one of the network segments stops working.</li>
+          </ul>
+          <h4 id="limitation-of-hub">Limitation of Hub</h4>
+          <ul>
+          <li><strong>Hub is everything:</strong> Total damage to the hub will cause the entire network to fail, even if all ports are perfectly functional.</li>
+          <li><strong>No filtering:</strong> Hubs do not allow packet filtering. This means that any data that is being forwarded to one device will also be forwarded to all connected devices.</li>
+          <li><strong>No security:</strong> Since the hub broadcasts messages to every port, it is not possible to send any private frame. This allows other connected ports to access your data.</li>
+          <li><strong>Network Traffic is high:</strong> Hubs broadcast the frame/data to every connected device due to which the traffic is high.</li>
+          <li><strong>Does not use full duplex transmission mode:</strong> Hubs use the half-duplex method for transmission. In the half duplex mode, you can either send a frame or receive a frame at a time. It is not possible to send and receive frames simultaneously.</li>
+          <li><strong>Cannot connect to different network architectures:</strong> Hubs cannot connect with different network architectures such as token, ring, and ethernet.</li>
+          </ul>
+          <p><strong>2. Bridge</strong></p>
+          <p>   A bridge is used to connect multiple LANs together with a larger Local Area Network (LAN). The mechanism of network aggregation is known as bridging. The bridge is a physical or hardware device but operates at the OSI model’s data link layer and is also known as a layer of two switches. The basic role of bridges in network architecture is storing and forwarding frames between the different segments that the bridge connects. They use hardware Media Access Control (MAC) addresses for transferring frames. By looking at the MAC address of the devices connected to each segment, bridges can forward the data or block it from crossing.</p>
+          <h4 id="functions-of-bridges-in-the-network">Functions of Bridges in the Network</h4>
+          <ul>
+          <li>The bridge is used to divide LANs into multiple segments.</li>
+          <li>To control the traffic in the network.</li>
+          <li>It can interconnect two LANs with a similar protocols.</li>
+          <li>It can filter the data based on destination/MAC address.</li>
+          </ul>
+          <h4 id="types-of-bridge">Types of bridge:</h4>
+          <ul>
+          <li><strong>Transparent Bridge:</strong> It is also called learning bridges. Bridge construct its table of terminal addresses on its own as it implements connecting two LANs. It facilitates the source location to create its table. It is self-updating.</li>
+          <li><strong>Source Route Bridge:</strong> It derives its name from the fact that the path which the packet takes through the network is implanted within the packet. It is mainly used in Token ring networks.</li>
+          <li><strong>Translational Bridge:</strong> The process of conversion takes place via Translational Bridge. It converts the data format of one networking to another. For instance Token ring to Ethernet and vice versa.</li>
+          </ul>
+          <h4 id="how-does-a-bridge-work">How does a bridge work?</h4>
+          <p>A bridge in computer network either blocks or forwards the data depending on the destination MAC address. The address is written into each data frame. Bridge accepts every packet and amplifies them to another side. However, they allow only selected packets to pass through them that are addressed from one node in a network to a node in other networks. It receives all packets from LAN segments. The bridge builds a table of addresses from which it can identify which packets are sent from which LAN to which LAN.</p>
+          <center>
+              <img style="mix-blend-mode: darken;" src="images/Bridge.png" alt="Bridge">
+             <figcaption><strong>Fig. 6 Bridge</strong></figcaption>     
+          </center>
+                             
+          
+          <h4 id="advantages-of-bridges">Advantages of Bridges</h4>
+          <ul>
+          <li>It can extend a network by acting as a repeater.</li>
+          <li>It separates the collision domains.</li>
+          <li>Because fewer network nodes share a collision domain, bridges increase the available bandwidth to individual nodes.</li>
+          <li>Reduces network congestion by dividing LAN into multiple smaller segments.</li>
+          </ul>
+          <h4 id="disadvantages-of-bridges">Disadvantages of Bridges</h4>
+          <ul>
+          <li>Cannot read specific IP addresses.</li>
+          <li>Unable to provide communication network among networks of different protocols.</li>
+          <li>Cannot limit the capacity of broadcast messages as they transfer all the messages.</li>
+          <li>Unable to handle complicated variable data load.</li>
+          </ul>
+          <p><strong>3. Router</strong></p>
+          <p>   A router is a network layer hardware device that transmits data from one LAN to another if both networks support the same set of protocols. So a router is typically connected to at least two LANs and the internet service provider (ISP). It receives its data in the form of packets, which are data frames with their destination address added. Router also strengthens the signals before transmitting them. That is why it is also called repeater.</p>
+          <p>   The router basically performs two major functions:</p>
+          <ul>
+          <li><p><strong>Forwarding:</strong> The router receives the packets from its input ports, checks its header, performs some basic functions like checking checksum, and then looks up to the routing table to find the appropriate output port to dump the packets onto, and forwards the packets onto that output port.</p>
+          </li>
+          <li><p><strong>Routing:</strong> Routing is the process by which the router ascertains what is the best path for the packet to reach the destination. It maintains a routing table which is made using different algorithms by the router only.</p>
+          <p>There are 2 types of Routing Tables:</p>
+          <ul>
+          <li>Static</li>
+          <li>Dynamic</li>
+          </ul>
+          </li>
+          </ul>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Routers.png" alt="Router">
+             <figcaption><strong>Fig. 7 Router</strong></figcaption>     
+              </center>
+          
+          <h4 id="how-does-router-work">How does Router work?</h4>
+          <p>   A router analyzes a destination IP address of a given packet header and compares it with the routing table to decide the packet's next path. The list of routing tables provides directions to transfer the data to a particular network destination. They have a set of rules that compute the best path to forward the data to the given IP address.</p>
+          <p>   Routers use a modem such as a cable, fiber, or DSL modem to allow communication between other devices and the internet. Most of the routers have several ports to connect different devices to the internet at the same time. It uses the routing tables to determine where to send data and from where the traffic is coming.
+             </p><center>
+           <img style="mix-blend-mode: darken;" src="images/working_router.png" alt="Router">
+            <figcaption><strong>Fig. 8 Illustration of routers connected to different devices</strong></figcaption><br> </center><p></p>
+          <h4 id="advantages-of-routers">Advantages of Routers</h4>
+          <ul>
+          <li>Determines the most efficient path between source and destination using dynamic routing algorithms such as OSPF, BGP, RIP, etc.</li>
+          <li>Reduces network traffic by creating the collision domains and broadcast domains.</li>
+          <li>Provides connection among different network architecture.</li>
+          <li>Connects multiple users to a single network connection.</li>
+          </ul>
+          <h4 id="disadvantages-of-routers">Disadvantages of Routers</h4>
+          <ul>
+          <li>Hardware-based routers are vulnerable to cyber attackers since they contain software called firmware. Unpatched routers are quite vulnerable to cyber attacks.</li>
+          <li>Since routers analyze data transmission from physical to network layer, they are slower than repeaters and bridges.</li>
+          <li>There is less bandwidth for user data since dynamic router communications cause additional network overhead.</li>
+          </ul>
+          <p><strong>4. Switch</strong></p>
+          <p>   Switch is a network device that is used to segment the networks into different subnetworks called subnets or LAN segments. Switch connects other devices to Ethernet networks through twisted pair cables. It maintains a list of network addresses of all the devices connected to it. It is responsible for filtering and forwarding the packets between LAN segments based on MAC address. On receiving a packet, it checks the destination address and transmits the packet to the correct port.</p>
+          <h4 id="functions-of-switch">Functions of Switch</h4>
+          <ul>
+          <li>It operates in Data Link Layer in OSI Model.</li>
+          <li>Before forwarding, the packets are checked for network errors.</li>
+          <li>It transfers the data only to the device that has been addressed.</li>
+          <li>The data is transmitted in full duplex mode.</li>
+          <li>It allocates each LAN segment a limited bandwidth.</li>
+          </ul>
+          <center>
+                <img style="mix-blend-mode: darken;" src="images/Switch.png" alt="Switch">
+                  <figcaption><strong>Fig. 9 Switch</strong></figcaption>     
+               </center><br>
+          
+          <p>   Switching techniques are used to decide best route for data transmission between source and destination. These are classified in three categories:</p>
+          <ol>
+          <li>Circuit Switching</li>
+          <li>Message Switching</li>
+          <li>Packet Switching</li>
+          </ol>
+          <h4 id="advantages">Advantages</h4>
+          <ul>
+          <li>Prevents traffic overloading in a network by segmenting the network into smaller subnets.</li>
+          <li>Increases the bandwidth of the network.</li>
+          <li>Less frame collision as switch creates the collision domain for each connection.</li>
+          </ul>
+          <h4 id="disadvantages">Disadvantages</h4>
+          <ul>
+          <li>It can not stop traffic destined for a different LAN segment from travelling to all other LAN segments.</li>
+          </ul>
+          <p><strong>5. Modem</strong></p>
+          <p>   Modem is a device that enables a computer to send or receive data over telephone or cable lines. The main function of the modem is to convert digital signal into analog and vice versa. Modem is a combination of two devices − modulator and demodulator. The modulator converts digital data into analog data when the data is being sent by the computer. The demodulator converts analog data signals into digital data when it is being received by the computer.
+            </p><center><br>    <img style="mix-blend-mode: darken;" src="images/Modem.png" alt="Modem">
+              <figcaption><strong>Fig. 10 Modem</strong></figcaption>     <p></p>
+          </center>
+          
+          <h4 id="how-does-modem-work">How does modem work?</h4>
+          <p>   The modem is placed between the telephone line and the computer system or router. It connects the devices with the ethernet port given in it. It connects the ISP(internet service provider) to the home network directly for the single PC. Or it is connected with the router to connect with multiple devices.</p>
+          <p>   The below diagram is converting the incoming analog signal coming from telephone-lines/optical fiber to a digital signal and sending it to the PC. Without a modem, we cannot connect to the internet.
+             </p><center>
+              <img style="mix-blend-mode: darken;" src="images/ModemWorking.png" alt="Modem">
+              <figcaption><strong>Fig. 11 Modulation</strong></figcaption><br>    </center><p></p>
+          <h4 id="types-of-modems">Types of Modems:</h4>
+          <ul>
+          <li><strong>Cable Modem</strong> - The cable modem is known as the broadband device as it allows the computer to communicate with ISP over a landline connection. It is connected with the landline connection using the coaxial cable and with the computer using the ethernet.</li>
+          <li><strong>DSL Modem</strong> - DSL stands for Digital Subscriber line that allows the transmission of data over the normal telephone line. It can be used to connect to a computer or router to provide the internet connection through the ethernet port or USB port.</li>
+          <li><strong>2-wire Modem</strong> - It use the same pair of wires for outgoing and incoming carriers.</li>
+          <li><strong>4-wire Modem</strong> - In a 4-wire connection, one pair of wires is used for the outgoing carrier and the other pair is used for incoming carrier.</li>
+          <li><strong>Half duplex</strong> − A half-duplex modem has the capacity to transfer data in both the directions but only one at a time.</li>
+          <li><strong>Full duplex</strong> − A full duplex modem can transmit data in both the directions simultaneously.</li>
+          </ul>
+          <p><strong>6. RJ45 connector</strong></p>
+          <p>   RJ45 is the acronym for Registered Jack 45. RJ45 connector is an 8-pin jack used by devices to physically connect to Ethernet based local area networks (LANs). Ethernet is a technology that defines protocols for establishing a LAN. The cable used for Ethernet LANs are twisted pair ones and have RJ45 connector pins at both ends. These pins go into the corresponding socket on devices and connect the device to the network.</p>
+            <center>              
+               <img style="mix-blend-mode: darken;" src="images/RJ45.png" alt="RJ45">
+              <figcaption><strong>Fig. 12 RJ45</strong></figcaption>     
+              </center>
+          
+          <p><strong>7. Ethernet Card</strong></p>
+          <p>   Ethernet card, also known as network interface card (NIC), is a hardware component used by computers to connect to Ethernet LAN and communicate with other devices on the LAN. The earliest Ethernet cards were external to the system and needed to be installed manually. In modern computer systems, it is an internal hardware component. The NIC has RJ45 socket where the network cable is physically plugged in. Modern cards support fast Ethernets up to a speed of 100 Mbps. Some cards even have capacity of 1 Gbps.</p>
+            <center>
+              <img style="mix-blend-mode: darken;" src="images/EthernetCard.png" alt="Ethernet Card">
+              <figcaption><strong>Fig. 13 Ethernet Card</strong></figcaption>      
+              </center>
+          
+          <p><strong>8. Gateway</strong></p>
+          <p>Gateway is a network device used to connect two or more dissimilar networks. In networking parlance, networks that use different protocols are dissimilar networks. A gateway usually is a computer with multiple NICs connected to different networks. Gateways provide translation between networking technologies such as Open System Interconnection (OSI) and Transmission Control Protocol/Internet Protocol (TCP/IP). Because of this, gateways connect two or more autonomous networks, each with its own routing algorithms, protocols, topology, domain name service, and network administration procedures and policies. Gateway uses packet switching technique to transmit data from one network to another. In this way it is similar to a router, the only difference being a router can transmit data only over networks that use the same protocols.</p>
+          <center>               
+           <img style="mix-blend-mode: darken;" src="images/Gateway.png" alt="Gateway"><figcaption><strong>Fig. 14 Gateway</strong></figcaption>     
+          </center>
+          
+          <p><strong>9. Wifi Card</strong></p>
+          <p>Wi-Fi is the acronym for wireless fidelity. Wi-Fi technology is used to achieve wireless connection to any network. Wi-Fi card is a card used to connect any device to the local network wirelessly. The physical area of the network which provides internet access through Wi-Fi is called Wi-Fi hotspot. Hotspots can be set up at home, office or any public space. Hotspots themselves are connected to the network through wires. A Wi-Fi card is used to add capabilities like teleconferencing, downloading digital camera images, video chat, etc. to old devices. Modern devices come with their in-built wireless network adapter.</p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/WifiCard.png" alt="Wifi Card">
+          <figcaption><strong>Fig. 15 Wifi Card</strong></figcaption>     
+          </center>
+          
+          <p><strong>10. Repeater</strong></p>
+          <p>A repeater is an electronic device that amplifies the signal it receives. When the incoming signals are attenuated, it copies them bit by bit and retransmits them at their original strength. You can think of a repeater as a device which receives a signal and retransmits it at a higher level or higher power so that the signal can cover longer distances, more than 100 meters for standard LAN cables. Repeaters work on the Physical layer and it is a two-port devices.</p>
+          <p>Let's understand about repeaters with an example:</p>
+          <p>Assume that one person communicates with the other using a one-to-one communication device such as a walkie-talkie. If there is a clear path between the two points, the data can be transmitted successfully. If there is a hill or mountain in the way, the data cannot be delivered flawlessly.</p>
+          <p>As a result, an antenna is placed between the two devices to avoid this situation, as shown in fig. 16</p>
+          <center>
+           <img style="mix-blend-mode: darken;" src="images/Repeater.png" alt="Repeater">
+           <figcaption><strong>Fig. 16 Example of repeater</strong></figcaption>     
+          </center><br>
+          
+          <h4 id="there-are-different-types-of-repeaters">There are different types of repeaters:</h4>
+          <ol>
+          <li><p><strong>On basis of the types of signals generated</strong></p>
+          <pre><code>- **Digital repeaters**: Data is transmitted in the form of binary digits such as 0s and 1s. While transmitting data, 0 and 1 values are generated, and it can transmit data over long distances. This repeater is capable of retiming and resynchronizing.
+          - **Analog Repeaters**: Data is transmitted in the form of analog signals to increase the amplitude of the data. These repeaters are used in trunk lines to help broadcast multiple signals using frequency division multiplexing (FDM).
+          </code></pre>
+          </li>
+          <li><p><strong>On basis of types of network-connected</strong></p>
+          <pre><code>- **Wired Repeaters**: They are used in wired LANs. For example OCRs
+          - **Optical communications Repeater (OCR)**: These are devices that extend the range of signals carried by a fiber optic cable. Digital signals are transmitted as a short pulse of light through a fiber optic cable in this repeater. Photons are tiny particles of light that can be absorbed or scattered in the fiber. On the other hand, optical amplifiers are designed for repeaters to amplify light without first converting it to an electric signal.
+          - **Wireless Repeaters**: They are used in wireless LANs and cellular networks. For example telephone repeaters, and radio repeaters.
+          - **Telephone Repeater**: Long-distance communications are carried out over telephone networks. To increase the power, a transistor-based amplifier is maintained. This telephone network is a bidirectional communication system in which audio signals transmit data. These telephone services are primarily used in submarine communications.
+          - **Radio Repeater**: It is used to extend the range of radio signal coverage. A radio repeater is a device that consists of a radio transmitter and a radio receiver. The received signals are amplified and retransmitted frequently at different frequencies to provide coverage beyond the obstruction.
+          </code></pre>
+          </li>
+          <li><p><strong>On basis of the domain of LANs connected</strong></p>
+          <pre><code>- **Local Repeaters**: They connect LAN segments separated by small distances.
+          - **Remote Repeaters**: They connect LANs that are far from each other.
+          </code></pre>
+          </li>
+          </ol>
+          <h4 id="advantages-of-repeater">Advantages of repeater:</h4>
+          <ul>
+          <li>The Repeater supports the signal strength.</li>
+          <li>These Repeaters are both cheap and easy to use.</li>
+          <li>The Repeaters have no impact on the network's performance.</li>
+          <li>These Repeaters are capable of retransmitting data and boosting weak signals.</li>
+          </ul>
+          <h4 id="disadvantages-of-repeater">Disadvantages of repeater:</h4>
+          <ul>
+          <li>The number of collisions increases as the number of repeaters increases.</li>
+          <li>Only a limited number of repeaters can be connected to it.</li>
+          <li>We can't connect the different network architectures in repeaters.</li>
+          <li>The data traffic in the Repeaters cannot be reduced.</li>
+          </ul>
+          <p><strong>11. Network Interface Card (NIC)</strong></p>
+          <p>NIC allows a networking device to communicate with the other networking device. NIC converts the data packets between two different data transmission technologies. A PC uses parallel data transmission technology to transmit the data between its internal parts while the media that provides connectivity between different PCs uses serial data transmission technology.</p>
+          <h4 id="types-of-nic">Types of NIC:</h4>
+          <ul>
+          <li><strong>Internal NIC</strong> - For an internal network interface card, the motherboard has a slot for the network card where it can be inserted.</li>
+          </ul>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/internal_nic.jpg" alt="NIC">
+          <figcaption><strong>Fig. 17 Internal NIC</strong></figcaption>     
+          </center>
+          
+          <ul>
+          <li><strong>External NIC</strong> - The motherboard does not have a slot where NIC can be inserted. Hence, these network interface cards use an antenna to offer wireless reception via radio frequency waves.</li>
+          </ul>
+          <center>                   
+          <img style="mix-blend-mode: darken;" src="images/external_nic.jpg" alt="NIC">
+          <figcaption><strong>Fig. 18 External NIC</strong></figcaption>      
+           </center>
+          
+          <h4 id="how-does-a-nic-card-work"><strong>How does a NIC card work?</strong></h4>
+          <p>Operating as an interface, a NIC card can transmit signals at the physical layer and deliver data packets at the network layer. Irrespective of location, the NIC card acts as a middleman between a computer, or server, and a data network. When a user requests a web page, the LAN card gets data from the user device, sends it to the server via the Internet, and gets the required data back from the Internet to display for users.</p>
+            <center>
+              <img style="mix-blend-mode: darken;" src="images/working_nic.jpg" alt="NIC">
+              <figcaption><strong>Fig. 19 Example of NIC</strong></figcaption>     
+             </center>
+                                 
+                                 
+          <h4 id="advantages-of-nic"><strong>Advantages of NIC</strong></h4>
+          <ul>
+          <li>As compared to the wireless network card, NIC provides a secure, faster, and more reliableconnection.</li>
+          <li>NIC allows us to share bulk data among many users.</li>
+          <li>It helps us to connect peripheral devices using many ports of NIC.</li>
+          <li>Communication speed is high.</li>
+          <li>Network Interface cards are not expensive.</li>
+          </ul>
+          <h4 id="disadvantages-of-nic"><strong>Disadvantages of NIC</strong></h4>
+          <ul>
+          <li>NIC is inconvenient as compared to the wireless card.</li>
+          <li>For wired NIC, a hard-wired connection is required.</li>
+          <li>NIC needs a proper configuration to work efficiently.</li>
+          <li>NIC cards are not secure, so the data inside NIC is not safe.</li>
+          </ul>
+          <p><strong>12. MAU and Patch Panel</strong></p>
+          <p>MAU and Patch Panel look like the Hub, but they are different. MAU (Multi Access Unit) is the sibling of Hub for the token ring network. Differences between Hub and MAU are the following:</p>
+          <ul>
+          <li>Hub is used for the Ethernet Network while the MAU is used for the Token ring network.</li>
+          <li>Hub creates logically star topology while MAU creates logically ring topology.</li>
+          </ul>
+          <center>          
+              <img style="mix-blend-mode: darken;" src="images/MAU.jpg" alt="MAU">
+               <figcaption><strong>Fig. 20 Multi Access Unit</strong></figcaption>     
+          </center>
+          
+          
+          <p><strong>13. Proxy</strong></p>
+          <p>Proxy is used to hide the internal network from the external world. It can be a dedicated device or can be an application software. Once it is configured, all communication goes through it. Since external devices cannot access the internal devices directly, they cannot tamper with the internal devices.</p>
+           <center>
+               <img style="mix-blend-mode: darken;" src="images/Proxy-Server.png" alt="Proxy">
+           <figcaption><strong>Fig. 21 Proxy</strong></figcaption>      
+          </center>
+          
+          <p><strong>14. Transceiver</strong></p>
+          <p>Transceiver is a small device that has the capability of receiving and sending both types of signals; analog and digital. Usually, it is inbuilt in network interface card. But, it is also available as an individual device. It detects the type of signal from the network wire and converts the passing signal accordingly. For example, a transceiver is attached with a device that transmits signal in digital form. Now suppose, this device is connected with the network wire that uses analog form for data transmission. In this case, the transceiver converts digital signals in the analog signals before placing them in the network wire.</p>
+           <center>
+              <img style="mix-blend-mode: darken;" src="images/Transceiver.png" alt="Transceiver">
+             <figcaption><strong>Fig. 22 Transceiver</strong></figcaption>     
+          </center>
+          
+          <p><strong>15. Firewall</strong></p>
+          <p>In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. A firewall typically establishes a barrier between a trusted internal network and untrusted external network, such as the Internet. Firewalls are often categorized as either network firewalls or host-based firewalls. Network firewalls filter traffic between two or more networks and run on network hardware. Host-based firewalls run on host computers and control network traffic in and out of those machines.</p>
+          <center>
+          <img style="mix-blend-mode: darken;" src="images/Firewall.png" alt="Firewall">
+          <figcaption><b>Fig. 23 Firewall</b></figcaption>     
+          </center>
+           
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITR&quot;,&quot;expname&quot;:&quot;DEMONSTRATION OF THE FUNCTIONING OF NETWORK DEVICES&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAAXNSR0IArs4c6QAABiFJREFUaEPFmVuMFEUUhv/TM7uwoBGVyG22u7ZnYGG5REETo8RA1BhFIka8ABFf0PCgDxhFEpCLqAlE1OiTiSj4gFGjD0QBETQaEqPRICALSHdPV+8YQQJBA+wuO1PHdMNcWGame2ZWqMfuc/nq1KlT1acJAzhShjFVAUsYdL8G3HjRdA7gHwna5uahLR91dnaeb9QlNWrA1+/o6GjuPnv2DQ30LICKNhk4qLF63PK8g434rejATJhjKa6m9WazOzOZzKlKTmYAcc8QnxEwJwqIAk5STpvpZJwD1eTHjR43PKflhtkZ2+ovVxbaTJiTSVM/gzCYGIebu4fc1nmi80w5J0nDWA7Qq1GACzLMR3pV7pZMJtNdTs/UzelE6msAQ0BYb7vuS6VyZaGTungGhPfygkRYZ7nusv4OEonEDc2xuEfA0JqgATBhieO6b/fXE0IM1pgPECgVvGP+x/bksFDo1JhUguPZI8FMAz0+zzFtSjqd9p8VRlJvew7E79QKHNgEDjrSndRfNyXEGmasLK4KttmeOysU2hdIGm0vA/xKUZh32VLeW6psCrGMmO+uB5qIeEh398P7jx8/m9cP9pGm9vtpmQ9WjHDzUSkPRYJOpVKDuK9vP0Dj8goMfsSR8ot6IKPoJI22XUBpEHitLWUx6heNVC15pmHMItCXBYeKPUZsLlFWVYNQsVg2nU7v82XaW1tHZ4lGhUEztOlEKOQ4A/b5XHZyuc0aWqdNIbYSY3aY00veM/9te3KE/ywlxGpmrKpJP8h5ftCR8qtyeqHQY3XdVNAO5vMskvMGoRWrT9Ke90QlX6HQF6N16Y4OI28Ampn/jatcxx+ZzJ8NQScSiZZBWvzJwAhhJoCKUQhkaoVmnAZoJcC9WowOH02nf6gWl0iRLpQk3ZwOym0n0DVVg10rNAAF7Ig1xedYltUbtpCRoZO6Po1J+z7S6VcHdLCIClusLnfBgED7NVv1ZX8lYGKYwbrSo8Qogxc4Um5pOD1Mo20DgZ+PBFxPTpcYJuBUljDRdd1jdW/EcYnEmKwWSxNR05WADnwo2mB3pV+oGzopxDowlkYGbjDSF9ILpwd1D2mtdB2uuhEv3D+yfwG4/opCB5WVnrZk+v1yfqtCJ3X9TpC2pybggYj0BYcf29KdXwe0WArCuqsCzSxtT4qq0GareStIXXo3JjxGwNSrAh0crMFFq3jYEJ9wpPygkB6mYZwg0PCaAcsp1Hm4RPFtS5eK0LpxvqayVs3DlYIO7r0K8xUhlufRGKNrupLmFQcImsEZBhWaOxq4y5ZyRvXqIcSnYDwaZdkukRkgaGqK32RZ1on+/qt/buliFRFWXxXokonXBJ3S22Yz8darAc2sdjqed1/NddpvnMQUHwPRdTWBD0R6EBbbrltoGJX6D71PJ3V9E0h76kpCMzirNTWNLpfPPkcodNDXi6m9QLGqhE6gwUgzaKMj04sq+QmF9hVrjnYj0IwejmvtjuN4DUEbhjEqztgLoqCXEToagQavsKV8rZqPSJH2DaSEmMGMXZHSpE5oZnzneK7fL8w1DJ1sTU6CltvEwPj/88OWwRYx77Y9b3HD0KYuvqUL/Y5oo85I542TooesrnTF8yE0PUwh5hGj6tfxZTNpEBqKvUE9QyfW9bnV3t5+bV9P7yECxuTBFGOvRn5v5eJgTLzsUhUFmuGCcLJoBiNL/ZT7bVFYiWrrnTSM9QC9WBSmzy2ZnluqI4QYGQcWM/O8Qi+7EjSjB4xtTNqHjuf4HVHO20q1tiZZi/k/j1r8Z8zcRxyfanfZv/dnrJgeYw1jQo6xr+SOfY5j2oRq9VMIIWLA7QSMslz3raDGG8ZMJhoPpR1QmvrFdd2eSoFKGm0rAF5bfM97bCnvKp2c/64idFLXd4C0woWFwMstKV+PthPrk/L/R/aeOfcbCBOKq8uLLCk3llos/0tON+8hUt+U5O1Rao5PjtIcrA+3qOWvDEC78wFlIO1I1wyFTuptC0G8uWSZHrCl3N4oUFT9NiE2a4yFQW6DLUfKsaHQU0aMGHq2pWULM98Bpncdzy35yxXVdf1yftXK9vS8CUVjtBjWHHXdn0qt/Qf/x1JblU8EiAAAAABJRU5ErkJggg==);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fab fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fab fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fab fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fab fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
+
+<script type="module" src="https://cdn.vlabs.ac.in/bug-report/vlabs-bug-report.js"></script><script type="module" src="/exp-network-devices-iitr/plugins/svc-rating/index.js"></script><script type="module" src="/exp-network-devices-iitr/plugins/svc-rating/config.js"></script><script type="module" src="https://apis.google.com/js/api.js"></script></body></html>

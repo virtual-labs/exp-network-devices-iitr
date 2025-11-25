@@ -1,0 +1,629 @@
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/app.min.js
+  2:31    warning  '$' is not defined                no-undef
+  2:104   warning  '$' is not defined                no-undef
+  2:190   warning  '$' is not defined                no-undef
+  2:222   warning  '$' is not defined                no-undef
+  2:256   warning  '$' is not defined                no-undef
+  2:277   warning  '$' is not defined                no-undef
+  2:303   warning  '$' is not defined                no-undef
+  2:331   warning  '$' is not defined                no-undef
+  2:385   warning  '$' is not defined                no-undef
+  2:435   warning  '$' is not defined                no-undef
+  2:500   warning  '$' is not defined                no-undef
+  2:566   warning  '$' is not defined                no-undef
+  2:568   warning  '$' is not defined                no-undef
+  2:656   warning  '$' is not defined                no-undef
+  2:751   warning  '$' is not defined                no-undef
+  2:800   warning  '$' is not defined                no-undef
+  2:918   warning  '$' is not defined                no-undef
+  2:976   warning  '$' is not defined                no-undef
+  2:994   warning  '$' is not defined                no-undef
+  2:1048  warning  '$' is not defined                no-undef
+  2:1081  warning  '$' is not defined                no-undef
+  2:1100  warning  '$' is not defined                no-undef
+  2:1197  warning  '$' is not defined                no-undef
+  2:1214  warning  '$' is not defined                no-undef
+  2:1271  warning  '$' is not defined                no-undef
+  2:1319  warning  '$' is not defined                no-undef
+  2:1350  warning  '$' is not defined                no-undef
+  2:1406  warning  '$' is not defined                no-undef
+  2:1431  warning  '$' is not defined                no-undef
+  2:1470  warning  '$' is not defined                no-undef
+  2:1541  warning  '$' is not defined                no-undef
+  2:1610  warning  '$' is not defined                no-undef
+  2:1645  warning  '$' is not defined                no-undef
+  2:1745  warning  '$' is not defined                no-undef
+  2:1811  warning  '$' is not defined                no-undef
+  2:1850  warning  '$' is not defined                no-undef
+  2:1877  warning  '$' is not defined                no-undef
+  2:1913  warning  '$' is not defined                no-undef
+  2:1954  warning  '$' is not defined                no-undef
+  2:1995  warning  '$' is not defined                no-undef
+  2:2024  warning  '$' is not defined                no-undef
+  2:2121  warning  '$' is not defined                no-undef
+  2:2157  warning  '$' is not defined                no-undef
+  2:2193  warning  '$' is not defined                no-undef
+  2:2229  warning  '$' is not defined                no-undef
+  2:2269  warning  '$' is not defined                no-undef
+  2:2313  warning  '$' is not defined                no-undef
+  2:2349  warning  '$' is not defined                no-undef
+  2:2398  warning  '$' is not defined                no-undef
+  2:2453  warning  '$' is not defined                no-undef
+  2:2554  warning  '$' is not defined                no-undef
+  2:2603  warning  '$' is not defined                no-undef
+  2:2685  warning  '$' is not defined                no-undef
+  2:2726  warning  '$' is not defined                no-undef
+  2:2760  warning  '$' is not defined                no-undef
+  2:2834  warning  '$' is not defined                no-undef
+  2:2899  warning  '$' is not defined                no-undef
+  2:3365  warning  '$' is not defined                no-undef
+  2:3425  warning  '$' is not defined                no-undef
+  2:3468  warning  '$' is not defined                no-undef
+  2:3484  warning  '$' is not defined                no-undef
+  2:3587  warning  '$' is not defined                no-undef
+  2:3675  warning  '$' is not defined                no-undef
+  2:3710  warning  '$' is not defined                no-undef
+  2:3756  warning  '$' is not defined                no-undef
+  2:3889  warning  '$' is not defined                no-undef
+  2:3993  warning  '$' is not defined                no-undef
+  2:4071  warning  '$' is not defined                no-undef
+  2:4148  warning  '$' is not defined                no-undef
+  2:4197  warning  '$' is not defined                no-undef
+  2:4443  warning  '$' is not defined                no-undef
+  2:4509  warning  '$' is not defined                no-undef
+  2:4541  warning  '$' is not defined                no-undef
+  2:4602  warning  '$' is not defined                no-undef
+  2:4668  warning  '$' is not defined                no-undef
+  2:4750  warning  '$' is not defined                no-undef
+  2:4829  warning  '$' is not defined                no-undef
+  2:4840  warning  '$' is not defined                no-undef
+  2:4915  warning  '$' is not defined                no-undef
+  2:5548  warning  '$' is not defined                no-undef
+  2:5562  warning  '$' is not defined                no-undef
+  2:6624  warning  '$' is not defined                no-undef
+  2:6650  warning  '$' is not defined                no-undef
+  2:6728  warning  '$' is not defined                no-undef
+  2:6740  warning  '$' is not defined                no-undef
+  2:6759  warning  'AdminLTEOptions' is not defined  no-undef
+  2:6782  warning  '$' is not defined                no-undef
+  2:6809  warning  '$' is not defined                no-undef
+  2:6838  warning  '$' is not defined                no-undef
+  2:6890  warning  '$' is not defined                no-undef
+  2:6971  warning  '$' is not defined                no-undef
+  2:6988  warning  '$' is not defined                no-undef
+  2:7136  warning  '$' is not defined                no-undef
+  2:7210  warning  '$' is not defined                no-undef
+  2:7279  warning  '$' is not defined                no-undef
+  2:7361  warning  'FastClick' is not defined        no-undef
+  2:7414  warning  '$' is not defined                no-undef
+  2:7489  warning  '$' is not defined                no-undef
+  2:7574  warning  '$' is not defined                no-undef
+  2:7638  warning  '$' is not defined                no-undef
+  2:7646  warning  '$' is not defined                no-undef
+  2:7734  warning  '$' is not defined                no-undef
+  2:8427  warning  'jQuery' is not defined           no-undef
+  2:8750  warning  'jQuery' is not defined           no-undef
+  2:9366  warning  'jQuery' is not defined           no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/bootstrap.bundle.js
+     7:74  warning  'exports' is not defined                                                   no-undef
+     7:83  warning  'require' is not defined                                                   no-undef
+     8:35  warning  'define' is not defined                                                    no-undef
+     8:48  warning  'define' is not defined                                                    no-undef
+    12:14  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2041:17  warning  Empty block statement                                                      no-empty
+  3273:32  warning  Unnecessary escape character: \-                                           no-useless-escape
+  3333:39  warning  Unnecessary escape character: \-                                           no-useless-escape
+  4189:60  warning  'global' is not defined                                                    no-undef
+  5421:35  warning  'len' is defined but never used                                            no-unused-vars
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/bootstrap.bundle.min.js
+  6:71     warning  'exports' is not defined                                                   no-undef
+  6:79     warning  'require' is not defined                                                   no-undef
+  6:125    warning  'define' is not defined                                                    no-undef
+  6:136    warning  'define' is not defined                                                    no-undef
+  6:1140   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  6:23586  warning  Empty block statement                                                      no-empty
+  6:30176  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:30796  warning  Unnecessary escape character: \-                                           no-useless-escape
+  6:40702  warning  'global' is not defined                                                    no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/bootstrap.js
+     7:74   warning  'exports' is not defined                                                   no-undef
+     7:83   warning  'require' is not defined                                                   no-undef
+     7:102  warning  'require' is not defined                                                   no-undef
+     8:35   warning  'define' is not defined                                                    no-undef
+     8:48   warning  'define' is not defined                                                    no-undef
+    12:14   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+    13:29   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2808:35   warning  'len' is defined but never used                                            no-unused-vars
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/bootstrap.min.js
+  6:319    warning  'jQuery' is not defined                 no-undef
+  6:1075   warning  'jQuery' is not defined                 no-undef
+  6:2009   warning  'jQuery' is not defined                 no-undef
+  6:3873   warning  'jQuery' is not defined                 no-undef
+  6:7916   warning  'jQuery' is not defined                 no-undef
+  6:11284  warning  'jQuery' is not defined                 no-undef
+  6:13647  warning  'jQuery' is not defined                 no-undef
+  6:19628  warning  'jQuery' is not defined                 no-undef
+  6:27173  warning  'a' is assigned a value but never used  no-unused-vars
+  6:28496  warning  'jQuery' is not defined                 no-undef
+  6:30085  warning  'jQuery' is not defined                 no-undef
+  7:499    warning  'jQuery' is not defined                 no-undef
+  7:2319   warning  'jQuery' is not defined                 no-undef
+  7:4732   warning  'jQuery' is not defined                 no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/bridgesimu.js
+   14:10  warning  'reload' is defined but never used   no-unused-vars
+   19:10  warning  'myMove' is defined but never used   no-unused-vars
+   36:13  warning  'Swal' is not defined                no-undef
+   62:13  warning  'Swal' is not defined                no-undef
+   86:13  warning  'Swal' is not defined                no-undef
+  110:13  warning  'Swal' is not defined                no-undef
+  133:17  warning  'Swal' is not defined                no-undef
+  148:17  warning  'Swal' is not defined                no-undef
+  167:5   warning  'posx' is not defined                no-undef
+  168:5   warning  'posy' is not defined                no-undef
+  173:13  warning  'posx' is not defined                no-undef
+  205:17  warning  'posx' is not defined                no-undef
+  207:33  warning  'posy' is not defined                no-undef
+  208:40  warning  'posx' is not defined                no-undef
+  217:5   warning  'posx' is not defined                no-undef
+  218:5   warning  'posy' is not defined                no-undef
+  223:13  warning  'posx' is not defined                no-undef
+  250:17  warning  'posx' is not defined                no-undef
+  251:33  warning  'posy' is not defined                no-undef
+  252:35  warning  'posx' is not defined                no-undef
+  261:5   warning  'posx' is not defined                no-undef
+  262:5   warning  'posy' is not defined                no-undef
+  267:13  warning  'posx' is not defined                no-undef
+  298:17  warning  'posx' is not defined                no-undef
+  300:33  warning  'posy' is not defined                no-undef
+  301:35  warning  'posx' is not defined                no-undef
+  310:5   warning  'posx' is not defined                no-undef
+  311:5   warning  'posy' is not defined                no-undef
+  316:13  warning  'posx' is not defined                no-undef
+  346:17  warning  'posx' is not defined                no-undef
+  348:33  warning  'posy' is not defined                no-undef
+  349:35  warning  'posx' is not defined                no-undef
+  360:5   warning  'posx1' is not defined               no-undef
+  361:5   warning  'posy1' is not defined               no-undef
+  365:13  warning  'posx1' is not defined               no-undef
+  372:17  warning  'posx1' is not defined               no-undef
+  374:33  warning  'posy1' is not defined               no-undef
+  375:35  warning  'posx1' is not defined               no-undef
+  383:10  warning  'myMove2' is defined but never used  no-unused-vars
+  386:5   warning  'posx1' is not defined               no-undef
+  387:5   warning  'posy1' is not defined               no-undef
+  391:13  warning  'posx1' is not defined               no-undef
+  399:17  warning  'posx1' is not defined               no-undef
+  401:33  warning  'posy1' is not defined               no-undef
+  402:34  warning  'posx1' is not defined               no-undef
+  413:5   warning  'posx2' is not defined               no-undef
+  414:5   warning  'posy2' is not defined               no-undef
+  418:13  warning  'posx2' is not defined               no-undef
+  419:8   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  424:17  warning  'posx2' is not defined               no-undef
+  426:33  warning  'posy2' is not defined               no-undef
+  427:34  warning  'posx2' is not defined               no-undef
+  438:5   warning  'posx3' is not defined               no-undef
+  439:5   warning  'posy3' is not defined               no-undef
+  443:13  warning  'posy3' is not defined               no-undef
+  451:17  warning  'posy3' is not defined               no-undef
+  453:33  warning  'posy3' is not defined               no-undef
+  454:34  warning  'posx3' is not defined               no-undef
+  465:5   warning  'posx8' is not defined               no-undef
+  466:5   warning  'posy8' is not defined               no-undef
+  470:13  warning  'posy8' is not defined               no-undef
+  479:17  warning  'posy8' is not defined               no-undef
+  481:33  warning  'posy8' is not defined               no-undef
+  482:34  warning  'posx8' is not defined               no-undef
+  493:5   warning  'posx4' is not defined               no-undef
+  494:5   warning  'posy4' is not defined               no-undef
+  499:13  warning  'posy4' is not defined               no-undef
+  507:17  warning  'posy4' is not defined               no-undef
+  509:33  warning  'posy4' is not defined               no-undef
+  510:35  warning  'posx4' is not defined               no-undef
+  521:5   warning  'posx7' is not defined               no-undef
+  522:5   warning  'posy7' is not defined               no-undef
+  527:13  warning  'posy7' is not defined               no-undef
+  528:8   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  534:17  warning  'posy7' is not defined               no-undef
+  537:33  warning  'posy7' is not defined               no-undef
+  538:35  warning  'posx7' is not defined               no-undef
+  550:5   warning  'posx5' is not defined               no-undef
+  551:5   warning  'posy5' is not defined               no-undef
+  556:13  warning  'posx5' is not defined               no-undef
+  557:8   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  563:17  warning  'posx5' is not defined               no-undef
+  565:33  warning  'posy5' is not defined               no-undef
+  566:34  warning  'posx5' is not defined               no-undef
+  577:5   warning  'posx6' is not defined               no-undef
+  578:5   warning  'posy6' is not defined               no-undef
+  583:13  warning  'posx6' is not defined               no-undef
+  584:8   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  590:17  warning  'posx6' is not defined               no-undef
+  592:33  warning  'posy6' is not defined               no-undef
+  593:34  warning  'posx6' is not defined               no-undef
+  609:5   warning  'Swal' is not defined                no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/dragdrop.js
+  1:10  warning  'allowDrop' is defined but never used  no-unused-vars
+  5:12  warning  'drag' is defined but never used       no-unused-vars
+  9:12  warning  'drop' is defined but never used       no-unused-vars
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/fastclick.js
+    1:1   warning  Unnecessary semicolon                                     no-extra-semi
+   13:19  warning  'Event' is already defined as a built-in global variable  no-redeclare
+   13:26  warning  'Node' is already defined as a built-in global variable   no-redeclare
+  746:69  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  797:71  warning  Unexpected comma in middle of array                       no-sparse-arrays
+  835:46  warning  'module' is not defined                                   no-undef
+  836:3   warning  'module' is not defined                                   no-undef
+  837:3   warning  'module' is not defined                                   no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/hubsimu.js
+    9:10  warning  'reload' is defined but never used  no-unused-vars
+   14:10  warning  'myMove' is defined but never used  no-unused-vars
+   34:13  warning  'Swal' is not defined               no-undef
+   60:17  warning  'Swal' is not defined               no-undef
+   86:17  warning  'Swal' is not defined               no-undef
+  112:17  warning  'Swal' is not defined               no-undef
+  138:17  warning  'Swal' is not defined               no-undef
+  166:13  warning  'Swal' is not defined               no-undef
+  191:17  warning  'Swal' is not defined               no-undef
+  206:17  warning  'Swal' is not defined               no-undef
+  226:5   warning  'posx' is not defined               no-undef
+  227:5   warning  'posy' is not defined               no-undef
+  232:13  warning  'posy' is not defined               no-undef
+  252:17  warning  'posx' is not defined               no-undef
+  253:17  warning  'posy' is not defined               no-undef
+  255:33  warning  'posy' is not defined               no-undef
+  256:40  warning  'posx' is not defined               no-undef
+  269:5   warning  'posx' is not defined               no-undef
+  270:5   warning  'posy' is not defined               no-undef
+  275:13  warning  'posy' is not defined               no-undef
+  296:17  warning  'posy' is not defined               no-undef
+  298:33  warning  'posy' is not defined               no-undef
+  299:34  warning  'posx' is not defined               no-undef
+  309:5   warning  'posx' is not defined               no-undef
+  310:5   warning  'posy' is not defined               no-undef
+  315:13  warning  'posy' is not defined               no-undef
+  335:17  warning  'posx' is not defined               no-undef
+  336:17  warning  'posy' is not defined               no-undef
+  338:33  warning  'posy' is not defined               no-undef
+  339:39  warning  'posx' is not defined               no-undef
+  349:5   warning  'posx' is not defined               no-undef
+  350:5   warning  'posy' is not defined               no-undef
+  355:13  warning  'posy' is not defined               no-undef
+  375:17  warning  'posx' is not defined               no-undef
+  376:17  warning  'posy' is not defined               no-undef
+  378:33  warning  'posy' is not defined               no-undef
+  379:39  warning  'posx' is not defined               no-undef
+  388:5   warning  'posx' is not defined               no-undef
+  389:5   warning  'posy' is not defined               no-undef
+  394:13  warning  'posy' is not defined               no-undef
+  415:17  warning  'posy' is not defined               no-undef
+  417:33  warning  'posy' is not defined               no-undef
+  418:34  warning  'posx' is not defined               no-undef
+  427:5   warning  'posx' is not defined               no-undef
+  428:5   warning  'posy' is not defined               no-undef
+  433:13  warning  'posy' is not defined               no-undef
+  452:17  warning  'posx' is not defined               no-undef
+  453:17  warning  'posy' is not defined               no-undef
+  455:33  warning  'posy' is not defined               no-undef
+  456:40  warning  'posx' is not defined               no-undef
+  466:5   warning  'posx1' is not defined              no-undef
+  467:5   warning  'posy1' is not defined              no-undef
+  472:13  warning  'posy1' is not defined              no-undef
+  479:17  warning  'posx1' is not defined              no-undef
+  480:17  warning  'posy1' is not defined              no-undef
+  482:33  warning  'posy1' is not defined              no-undef
+  483:39  warning  'posx1' is not defined              no-undef
+  493:5   warning  'posx9' is not defined              no-undef
+  494:5   warning  'posy9' is not defined              no-undef
+  498:13  warning  'posy9' is not defined              no-undef
+  499:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  505:17  warning  'posx9' is not defined              no-undef
+  506:17  warning  'posy9' is not defined              no-undef
+  508:33  warning  'posy9' is not defined              no-undef
+  509:38  warning  'posx9' is not defined              no-undef
+  519:5   warning  'posx2' is not defined              no-undef
+  520:5   warning  'posy2' is not defined              no-undef
+  524:13  warning  'posy2' is not defined              no-undef
+  525:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  530:17  warning  'posy2' is not defined              no-undef
+  532:33  warning  'posy2' is not defined              no-undef
+  533:34  warning  'posx2' is not defined              no-undef
+  543:5   warning  'posx3' is not defined              no-undef
+  544:5   warning  'posy3' is not defined              no-undef
+  549:13  warning  'posy3' is not defined              no-undef
+  550:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  555:17  warning  'posy3' is not defined              no-undef
+  557:33  warning  'posy3' is not defined              no-undef
+  558:34  warning  'posx3' is not defined              no-undef
+  567:5   warning  'posx4' is not defined              no-undef
+  568:5   warning  'posy4' is not defined              no-undef
+  573:13  warning  'posy4' is not defined              no-undef
+  574:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  578:17  warning  'posx4' is not defined              no-undef
+  579:17  warning  'posy4' is not defined              no-undef
+  580:33  warning  'posy4' is not defined              no-undef
+  581:38  warning  'posx4' is not defined              no-undef
+  590:5   warning  'posx5' is not defined              no-undef
+  591:5   warning  'posy5' is not defined              no-undef
+  596:13  warning  'posy5' is not defined              no-undef
+  597:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  600:17  warning  'posx5' is not defined              no-undef
+  601:17  warning  'posy5' is not defined              no-undef
+  602:33  warning  'posy5' is not defined              no-undef
+  603:38  warning  'posx5' is not defined              no-undef
+  616:5   warning  'Swal' is not defined               no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/jquery-2.2.3.min.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6147   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6403   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6834   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7093   warning  Empty block statement                                                      no-empty
+  2:7662   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9532   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11134  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11710  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11748  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12166  warning  Empty block statement                                                      no-empty
+  2:12729  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13041  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:14869  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15140  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15340  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15716  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16421  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18805  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18896  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18956  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20258  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20872  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20983  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23243  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23245  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:10     warning  Empty block statement                                                      no-empty
+  3:4145   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4284   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:4900   warning  Empty block statement                                                      no-empty
+  3:13968  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:15550  warning  Empty block statement                                                      no-empty
+  3:17096  warning  Move function declaration to function body root                            no-inner-declarations
+  3:24430  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:26855  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:31319  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1015   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1095   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1438   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1518   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:1939   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2216   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:7005   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9508   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:10285  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:11408  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14991  warning  Empty block statement                                                      no-empty
+  4:21305  warning  'define' is not defined                                                    no-undef
+  4:21317  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/jquery.slimscroll.min.js
+   7:41   warning  'm' is already defined         no-redeclare
+   7:286  warning  'c' is already defined         no-redeclare
+   8:51   warning  'h' is already defined         no-redeclare
+   8:251  warning  't' is not defined             no-undef
+   8:278  warning  'pageY' is not defined         no-undef
+   8:334  warning  'currTop' is not defined       no-undef
+   8:342  warning  't' is not defined             no-undef
+   8:352  warning  'pageY' is not defined         no-undef
+   8:370  warning  'currTop' is not defined       no-undef
+   8:443  warning  'a' is defined but never used  no-unused-vars
+   9:237  warning  'b' is defined but never used  no-unused-vars
+  10:378  warning  'jQuery' is not defined        no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/router.js
+   10:10  warning  'reload' is defined but never used  no-unused-vars
+   15:10  warning  'myMove' is defined but never used  no-unused-vars
+   34:13  warning  'Swal' is not defined               no-undef
+   58:17  warning  'Swal' is not defined               no-undef
+   83:17  warning  'Swal' is not defined               no-undef
+  108:17  warning  'Swal' is not defined               no-undef
+  133:17  warning  'Swal' is not defined               no-undef
+  160:13  warning  'Swal' is not defined               no-undef
+  184:17  warning  'Swal' is not defined               no-undef
+  199:17  warning  'Swal' is not defined               no-undef
+  218:5   warning  'posx' is not defined               no-undef
+  219:5   warning  'posy' is not defined               no-undef
+  224:13  warning  'posy' is not defined               no-undef
+  247:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  252:17  warning  'posx' is not defined               no-undef
+  253:17  warning  'posy' is not defined               no-undef
+  255:33  warning  'posy' is not defined               no-undef
+  256:40  warning  'posx' is not defined               no-undef
+  266:5   warning  'posx' is not defined               no-undef
+  267:5   warning  'posy' is not defined               no-undef
+  272:13  warning  'posy' is not defined               no-undef
+  304:17  warning  'posy' is not defined               no-undef
+  306:33  warning  'posy' is not defined               no-undef
+  307:34  warning  'posx' is not defined               no-undef
+  316:5   warning  'posx' is not defined               no-undef
+  317:5   warning  'posy' is not defined               no-undef
+  322:13  warning  'posy' is not defined               no-undef
+  353:17  warning  'posx' is not defined               no-undef
+  354:17  warning  'posy' is not defined               no-undef
+  356:33  warning  'posy' is not defined               no-undef
+  357:39  warning  'posx' is not defined               no-undef
+  367:5   warning  'posx' is not defined               no-undef
+  368:5   warning  'posy' is not defined               no-undef
+  373:13  warning  'posy' is not defined               no-undef
+  404:17  warning  'posx' is not defined               no-undef
+  405:17  warning  'posy' is not defined               no-undef
+  407:33  warning  'posy' is not defined               no-undef
+  408:39  warning  'posx' is not defined               no-undef
+  417:5   warning  'posx' is not defined               no-undef
+  418:5   warning  'posy' is not defined               no-undef
+  423:13  warning  'posy' is not defined               no-undef
+  455:17  warning  'posy' is not defined               no-undef
+  457:33  warning  'posy' is not defined               no-undef
+  458:34  warning  'posx' is not defined               no-undef
+  467:5   warning  'posx' is not defined               no-undef
+  468:5   warning  'posy' is not defined               no-undef
+  473:13  warning  'posy' is not defined               no-undef
+  504:17  warning  'posx' is not defined               no-undef
+  505:17  warning  'posy' is not defined               no-undef
+  507:33  warning  'posy' is not defined               no-undef
+  508:40  warning  'posx' is not defined               no-undef
+  517:5   warning  'posx1' is not defined              no-undef
+  518:5   warning  'posy1' is not defined              no-undef
+  522:13  warning  'posy1' is not defined              no-undef
+  529:17  warning  'posx1' is not defined              no-undef
+  530:17  warning  'posy1' is not defined              no-undef
+  532:33  warning  'posy1' is not defined              no-undef
+  533:38  warning  'posx1' is not defined              no-undef
+  542:5   warning  'posx9' is not defined              no-undef
+  543:5   warning  'posy9' is not defined              no-undef
+  547:13  warning  'posy9' is not defined              no-undef
+  554:17  warning  'posx9' is not defined              no-undef
+  555:17  warning  'posy9' is not defined              no-undef
+  557:33  warning  'posy9' is not defined              no-undef
+  558:38  warning  'posx9' is not defined              no-undef
+  567:5   warning  'posx2' is not defined              no-undef
+  568:5   warning  'posy2' is not defined              no-undef
+  573:13  warning  'posy2' is not defined              no-undef
+  574:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  581:17  warning  'posy2' is not defined              no-undef
+  582:33  warning  'posy2' is not defined              no-undef
+  583:34  warning  'posx2' is not defined              no-undef
+  593:5   warning  'posx3' is not defined              no-undef
+  594:5   warning  'posy3' is not defined              no-undef
+  599:13  warning  'posy3' is not defined              no-undef
+  600:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  607:17  warning  'posy3' is not defined              no-undef
+  609:33  warning  'posy3' is not defined              no-undef
+  610:34  warning  'posx3' is not defined              no-undef
+  619:5   warning  'posx4' is not defined              no-undef
+  620:5   warning  'posy4' is not defined              no-undef
+  625:13  warning  'posy4' is not defined              no-undef
+  626:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  632:17  warning  'posx4' is not defined              no-undef
+  633:17  warning  'posy4' is not defined              no-undef
+  635:33  warning  'posy4' is not defined              no-undef
+  636:38  warning  'posx4' is not defined              no-undef
+  645:5   warning  'posx5' is not defined              no-undef
+  646:5   warning  'posy5' is not defined              no-undef
+  651:13  warning  'posy5' is not defined              no-undef
+  652:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  658:17  warning  'posx5' is not defined              no-undef
+  659:17  warning  'posy5' is not defined              no-undef
+  661:33  warning  'posy5' is not defined              no-undef
+  662:38  warning  'posx5' is not defined              no-undef
+  677:5   warning  'Swal' is not defined               no-undef
+
+/home/runner/work/exp-network-devices-iitr/exp-network-devices-iitr/experiment/simulation/js/switch.js
+    9:10  warning  'reload' is defined but never used  no-unused-vars
+   14:10  warning  'myMove' is defined but never used  no-unused-vars
+   33:17  warning  'Swal' is not defined               no-undef
+   59:21  warning  'Swal' is not defined               no-undef
+   84:21  warning  'Swal' is not defined               no-undef
+  109:21  warning  'Swal' is not defined               no-undef
+  134:21  warning  'Swal' is not defined               no-undef
+  161:17  warning  'Swal' is not defined               no-undef
+  186:17  warning  'Swal' is not defined               no-undef
+  201:17  warning  'Swal' is not defined               no-undef
+  219:5   warning  'posx' is not defined               no-undef
+  220:5   warning  'posy' is not defined               no-undef
+  225:13  warning  'posy' is not defined               no-undef
+  257:16  warning  'posx' is not defined               no-undef
+  258:16  warning  'posy' is not defined               no-undef
+  260:31  warning  'posy' is not defined               no-undef
+  261:38  warning  'posx' is not defined               no-undef
+  270:5   warning  'posx' is not defined               no-undef
+  271:5   warning  'posy' is not defined               no-undef
+  276:13  warning  'posy' is not defined               no-undef
+  308:17  warning  'posy' is not defined               no-undef
+  310:33  warning  'posy' is not defined               no-undef
+  311:34  warning  'posx' is not defined               no-undef
+  321:5   warning  'posx' is not defined               no-undef
+  322:5   warning  'posy' is not defined               no-undef
+  327:13  warning  'posy' is not defined               no-undef
+  358:17  warning  'posx' is not defined               no-undef
+  359:17  warning  'posy' is not defined               no-undef
+  361:33  warning  'posy' is not defined               no-undef
+  362:39  warning  'posx' is not defined               no-undef
+  372:5   warning  'posx' is not defined               no-undef
+  373:5   warning  'posy' is not defined               no-undef
+  378:13  warning  'posy' is not defined               no-undef
+  409:17  warning  'posx' is not defined               no-undef
+  410:17  warning  'posy' is not defined               no-undef
+  412:33  warning  'posy' is not defined               no-undef
+  413:39  warning  'posx' is not defined               no-undef
+  422:5   warning  'posx' is not defined               no-undef
+  423:5   warning  'posy' is not defined               no-undef
+  428:13  warning  'posy' is not defined               no-undef
+  460:17  warning  'posy' is not defined               no-undef
+  462:33  warning  'posy' is not defined               no-undef
+  463:34  warning  'posx' is not defined               no-undef
+  472:5   warning  'posx' is not defined               no-undef
+  473:5   warning  'posy' is not defined               no-undef
+  478:13  warning  'posy' is not defined               no-undef
+  509:17  warning  'posx' is not defined               no-undef
+  510:17  warning  'posy' is not defined               no-undef
+  512:33  warning  'posy' is not defined               no-undef
+  513:40  warning  'posx' is not defined               no-undef
+  523:5   warning  'posx1' is not defined              no-undef
+  524:5   warning  'posy1' is not defined              no-undef
+  528:13  warning  'posy1' is not defined              no-undef
+  535:17  warning  'posx1' is not defined              no-undef
+  536:17  warning  'posy1' is not defined              no-undef
+  538:33  warning  'posy1' is not defined              no-undef
+  539:39  warning  'posx1' is not defined              no-undef
+  549:5   warning  'posx9' is not defined              no-undef
+  550:5   warning  'posy9' is not defined              no-undef
+  554:13  warning  'posy9' is not defined              no-undef
+  561:17  warning  'posx9' is not defined              no-undef
+  562:17  warning  'posy9' is not defined              no-undef
+  564:33  warning  'posy9' is not defined              no-undef
+  565:38  warning  'posx9' is not defined              no-undef
+  575:5   warning  'posx2' is not defined              no-undef
+  576:5   warning  'posy2' is not defined              no-undef
+  581:13  warning  'posy2' is not defined              no-undef
+  582:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  589:17  warning  'posy2' is not defined              no-undef
+  591:33  warning  'posy2' is not defined              no-undef
+  592:34  warning  'posx2' is not defined              no-undef
+  603:5   warning  'posx3' is not defined              no-undef
+  604:5   warning  'posy3' is not defined              no-undef
+  609:13  warning  'posy3' is not defined              no-undef
+  610:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  617:17  warning  'posy3' is not defined              no-undef
+  619:33  warning  'posy3' is not defined              no-undef
+  620:34  warning  'posx3' is not defined              no-undef
+  632:5   warning  'posx4' is not defined              no-undef
+  633:5   warning  'posy4' is not defined              no-undef
+  638:13  warning  'posy4' is not defined              no-undef
+  639:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  645:17  warning  'posx4' is not defined              no-undef
+  645:24  warning  'posx4' is not defined              no-undef
+  646:17  warning  'posy4' is not defined              no-undef
+  648:33  warning  'posy4' is not defined              no-undef
+  649:34  warning  'posx4' is not defined              no-undef
+  661:5   warning  'posx5' is not defined              no-undef
+  662:5   warning  'posy5' is not defined              no-undef
+  667:13  warning  'posy5' is not defined              no-undef
+  668:8   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  674:17  warning  'posx5' is not defined              no-undef
+  675:17  warning  'posy5' is not defined              no-undef
+  677:33  warning  'posy5' is not defined              no-undef
+  678:38  warning  'posx5' is not defined              no-undef
+  695:5   warning  'Swal' is not defined               no-undef
+
+✖ 599 problems (0 errors, 599 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
